@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_marginRight="30dp"
-    android:layout_marginLeft="30dp"
-    android:layout_marginBottom="50dp"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/background"
     android:layout_height="match_parent"
     tools:context=".Login">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textSize="20sp"
         android:text="Welcome to Kodable!"
         android:layout_marginBottom="100dp"
@@ -24,29 +24,41 @@
 
     <TextView
         android:id="@+id/textView"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:text="Email:" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:ems="10"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:inputType="text"
         android:hint="Example@gmail.com" />
 
     <TextView
         android:id="@+id/textView2"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:text="Password" />
 
     <EditText
         android:id="@+id/password"
+        android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
         android:inputType="textPassword"
         android:hint="*******" />
 
@@ -64,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
         android:text="Sign Up" />
 
 </LinearLayout>
